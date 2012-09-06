@@ -22,7 +22,7 @@ public class TestInt2StringFastUtilMap {
         List<String> result = new ArrayList<String>(SET_SIZE);
 
         for (int i = 0; i < SET_SIZE; i++) {
-            int len = 10 + (int) Math.random() * 15;
+            int len = 10 + (int) (Math.random() * 15);
             StringBuilder sb = new StringBuilder(len);
             for (int j = 0; j < len; j++) {
                 sb.append((char) (30 + Math.random() * 65));
